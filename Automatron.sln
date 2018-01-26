@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatron.Interfaces", "Automatron.Interfaces\Automatron.Interfaces.csproj", "{C4527A9B-ED19-4DF7-80BE-51A4A1F609BF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{6BE880FB-5421-4E54-850E-2AEE07507222}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{69DDE19B-A5C0-4410-94DB-3E80F8C00706}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +22,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4527A9B-ED19-4DF7-80BE-51A4A1F609BF} = {69DDE19B-A5C0-4410-94DB-3E80F8C00706}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BDBD7730-5973-4D37-BE1B-619D24655149}
