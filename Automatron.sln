@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatron.Interfaces", "Automatron.Interfaces\Automatron.Interfaces.csproj", "{C4527A9B-ED19-4DF7-80BE-51A4A1F609BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatron.Interfaces", "Common\Automatron.Interfaces\Automatron.Interfaces.csproj", "{C4527A9B-ED19-4DF7-80BE-51A4A1F609BF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{6BE880FB-5421-4E54-850E-2AEE07507222}"
 EndProject
@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Execute", "Execute", "{1EAC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output", "Output", "{BD647F3F-F06D-477F-A234-4D6999F8DF8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatron.Core", "Automatron.Core\Automatron.Core.csproj", "{75380AB2-4BAD-41AD-A7F6-183CA954C0C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatron.Core", "Common\Automatron.Core\Automatron.Core.csproj", "{75380AB2-4BAD-41AD-A7F6-183CA954C0C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
