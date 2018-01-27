@@ -5,7 +5,10 @@ using System.Threading.Tasks;
 
 namespace Automatron.Interfaces.Workflow.Nodes
 {
-    public interface IHasLeftPoint
+    /// <summary>
+    /// All workflow elements which contains Left connector / Input
+    /// </summary>
+    public interface IHasLeftPoint : IWorkflowElement
     {
         string Execute(IWorkflowElementSetting a_settings);
     }
