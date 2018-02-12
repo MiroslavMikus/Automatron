@@ -29,15 +29,13 @@ namespace Automatron.Tirggers.Loop
 
         private Timer _executionTimer;
 
-        private LoopTriggerSettings _settings;
-
         public void StartLisen()
         {
             if (IsLisening) return;
 
-            int tempLoopCount = _settings.LoopCount;
+            int tempLoopCount = Setting.LoopCount;
 
-            _executionTimer = new Timer(_settings.LoopInterval * 1000);
+            _executionTimer = new Timer(Setting.LoopInterval * 1000);
 
             _executionTimer.Elapsed += (a, b) =>
             {

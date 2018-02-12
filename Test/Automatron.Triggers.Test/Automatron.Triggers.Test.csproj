@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LoopTriggerTest\LoopTriggerTest.cs" />
+    <Compile Include="LoopTriggerTest\LoopTriggeValidationTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
