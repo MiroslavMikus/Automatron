@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatron.Interfaces", "Common\Automatron.Interfaces\Automatron.Interfaces.csproj", "{C4527A9B-ED19-4DF7-80BE-51A4A1F609BF}"
 EndProject
@@ -10,12 +10,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{69DDE19B-A5C0-4410-94DB-3E80F8C00706}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{C3E8D216-BB48-4F6D-B934-D9007787DCD5}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Triggers", "Triggers", "{1A1C139D-0ADE-4F47-AA0F-D4E1C35A6FD6}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Execute", "Execute", "{1EAC6329-7B2F-45E8-BF90-0BA8FE0D9E98}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output", "Output", "{BD647F3F-F06D-477F-A234-4D6999F8DF8B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatron.Core", "Common\Automatron.Core\Automatron.Core.csproj", "{75380AB2-4BAD-41AD-A7F6-183CA954C0C9}"
 EndProject
@@ -39,9 +33,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C4527A9B-ED19-4DF7-80BE-51A4A1F609BF} = {69DDE19B-A5C0-4410-94DB-3E80F8C00706}
-		{1A1C139D-0ADE-4F47-AA0F-D4E1C35A6FD6} = {C3E8D216-BB48-4F6D-B934-D9007787DCD5}
-		{1EAC6329-7B2F-45E8-BF90-0BA8FE0D9E98} = {C3E8D216-BB48-4F6D-B934-D9007787DCD5}
-		{BD647F3F-F06D-477F-A234-4D6999F8DF8B} = {C3E8D216-BB48-4F6D-B934-D9007787DCD5}
 		{75380AB2-4BAD-41AD-A7F6-183CA954C0C9} = {69DDE19B-A5C0-4410-94DB-3E80F8C00706}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

@@ -5,7 +5,7 @@ namespace Automatron.Interfaces.Workflow.Nodes
     /// <summary>
     /// All workflow elements which contains Right connector / Output
     /// </summary>
-    public interface IHasRightPoint: IWorkflowElement
+    public interface IHasRightPoint : IWorkflowElement
     {
         /// <summary>
         /// will be invoked when <see cref="ITrigger"/> conditions are met
