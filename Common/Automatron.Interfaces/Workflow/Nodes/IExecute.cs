@@ -1,6 +1,6 @@
 ﻿namespace Automatron.Interfaces.Workflow.Nodes
 {
-    public interface IExecute: IHasLeftPoint, IHasRightPoint
+    public interface IExecute<TSettings> : IHasLeftPoint<TSettings>, IHasRightPoint<TSettings> where TSettings : IWorkflowElementSettings
     {
 
     }

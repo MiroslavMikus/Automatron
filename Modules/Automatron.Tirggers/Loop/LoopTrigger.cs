@@ -12,7 +12,7 @@ using Timer = System.Timers.Timer;
 
 namespace Automatron.Tirggers.Loop
 {
-    public class LoopTrigger : ITrigger
+    public class LoopTrigger : ITrigger<LoopTriggerSettings>
     {
         #region ITrigger properties
 
@@ -22,23 +22,7 @@ namespace Automatron.Tirggers.Loop
 
         public string ElementDescription => "Runs script by given interval and for given iterations";
 
-        public IWorkflowElementSettings Setting
-        {
-            get
-            {
-                return _settings;
-            }
-            set
-            {
-                if (value == null) return;
-
-                var settings = value as LoopTriggerSettings;
-
-                _settings = settings ?? throw new ArgumentException($"Given Settings:{value} have wrong type.{Environment.NewLine}" +
-                        $"Current type = {value.GetType()}{Environment.NewLine}" +
-                        $"Supported Type = {typeof(LoopTriggerSettings)}");
-            }
-        }
+        public LoopTriggerSettings Setting { get; set; }
 
         public event InvokeNextEventHandler InvokeNext;
         #endregion

@@ -1,6 +1,6 @@
 ﻿namespace Automatron.Interfaces.Workflow.Nodes
 {
-    public interface ITrigger : IHasRightPoint
+    public interface ITrigger<TSettings> : IHasRightPoint<TSettings> where TSettings : IWorkflowElementSettings
     {
         /// <summary>
         /// Starts lisening for events / user interactions..

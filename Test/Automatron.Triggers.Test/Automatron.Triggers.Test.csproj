@@ -51,7 +51,6 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fakes\FakeSettings.cs" />
     <Compile Include="LoopTriggerTest\LoopTriggerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -12,6 +12,6 @@ namespace Automatron.Interfaces.Workflow
     public interface IWorkflow
     {
         string Name { get; set; }
-        IEnumerable<IWorkflowElement> Elements { get; set; }
+        IEnumerable<IWorkflowElement<IWorkflowElementSettings>> Elements { get; set; }
     }
 }

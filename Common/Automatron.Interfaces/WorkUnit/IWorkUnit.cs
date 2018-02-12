@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Automatron.Interfaces.Workflow;
 using Automatron.Interfaces.Workflow.Nodes;
 
 namespace Automatron.Interfaces.WorkUnit
@@ -19,12 +20,12 @@ namespace Automatron.Interfaces.WorkUnit
         void Test();
 
         Type TriggerType { get; set; }
-        ITrigger Trigger { get; set; }
+        ITrigger<IWorkflowElementSettings> Trigger { get; set; }
 
         Type ExecuteType { get; set; }
-        IExecute Execute { get; set; }
+        IExecute<IWorkflowElementSettings> Execute { get; set; }
 
         Type OutputType { get; set; }
-        IOutput Output { get; set; }
+        IOutput<IWorkflowElementSettings> Output { get; set; }
     }
 }

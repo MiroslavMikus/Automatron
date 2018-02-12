@@ -3,7 +3,7 @@
     /// <summary>
     /// This is base interface for every element in workflow
     /// </summary>
-    public interface IWorkflowElement
+    public interface IWorkflowElement<TSettings> where TSettings : IWorkflowElementSettings
     {
         /// <summary>
         /// Name of Workflow element
@@ -23,6 +23,6 @@
         /// </example>
         string ElementDescription { get; }
 
-        IWorkflowElementSettings Setting { get; set; }
+        TSettings Setting { get; set; }
     }
 }

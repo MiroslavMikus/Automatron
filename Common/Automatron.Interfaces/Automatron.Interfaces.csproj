@@ -52,7 +52,7 @@
     <Compile Include="Workflow\IWorkflow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Workflow\IWorkflowElement.cs" />
-    <Compile Include="Workflow\IWorkflowElementSetting.cs" />
+    <Compile Include="Workflow\IWorkflowElementSettings.cs" />
     <Compile Include="WorkUnit\IWorkUnit.cs" />
   </ItemGroup>
   <ItemGroup>
