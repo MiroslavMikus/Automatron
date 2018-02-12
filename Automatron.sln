@@ -13,6 +13,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{C3E8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatron.Core", "Common\Automatron.Core\Automatron.Core.csproj", "{75380AB2-4BAD-41AD-A7F6-183CA954C0C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatron.Tirggers", "Modules\Automatron.Tirggers\Automatron.Tirggers.csproj", "{BB083C20-49F2-43B7-9751-A0AD2D01D165}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C53F3529-75BF-479F-8E7D-BA4BBE83212C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatron.Triggers.Test", "Test\Automatron.Triggers.Test\Automatron.Triggers.Test.csproj", "{30E8C510-B287-4139-9751-A8CF232B3728}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,14 @@ Global
 		{75380AB2-4BAD-41AD-A7F6-183CA954C0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75380AB2-4BAD-41AD-A7F6-183CA954C0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75380AB2-4BAD-41AD-A7F6-183CA954C0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB083C20-49F2-43B7-9751-A0AD2D01D165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB083C20-49F2-43B7-9751-A0AD2D01D165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB083C20-49F2-43B7-9751-A0AD2D01D165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB083C20-49F2-43B7-9751-A0AD2D01D165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E8C510-B287-4139-9751-A8CF232B3728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E8C510-B287-4139-9751-A8CF232B3728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E8C510-B287-4139-9751-A8CF232B3728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E8C510-B287-4139-9751-A8CF232B3728}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +48,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C4527A9B-ED19-4DF7-80BE-51A4A1F609BF} = {69DDE19B-A5C0-4410-94DB-3E80F8C00706}
 		{75380AB2-4BAD-41AD-A7F6-183CA954C0C9} = {69DDE19B-A5C0-4410-94DB-3E80F8C00706}
+		{BB083C20-49F2-43B7-9751-A0AD2D01D165} = {C3E8D216-BB48-4F6D-B934-D9007787DCD5}
+		{30E8C510-B287-4139-9751-A8CF232B3728} = {C53F3529-75BF-479F-8E7D-BA4BBE83212C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BDBD7730-5973-4D37-BE1B-619D24655149}
