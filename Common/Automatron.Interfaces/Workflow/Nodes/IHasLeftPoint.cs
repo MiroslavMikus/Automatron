@@ -10,6 +10,6 @@ namespace Automatron.Interfaces.Workflow.Nodes
     /// </summary>
     public interface IHasLeftPoint : IWorkflowElement
     {
-        string Execute(IWorkflowElementSetting a_settings);
+        string Execute(IWorkflowElementSettings a_settings);
     }
 }

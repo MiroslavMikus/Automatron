@@ -6,9 +6,23 @@
     public interface IWorkflowElement
     {
         /// <summary>
-        /// User should be able to give custom names to all workflow elements
+        /// Name of Workflow element
         /// </summary>
-        string Name { get; set; }
-        IWorkflowElementSetting Setting { get; set; }
+        /// <example>
+        /// LoopTrigger -> Loop
+        /// </example>
+        string ElementName { get;}
+
+        /// <summary>
+        /// Description for workflow element.
+        /// User should be able to see this description while selecting/creating a new element.
+        /// </summary>
+        /// <example>
+        /// LoopTrigger:
+        /// Executes script by given interval
+        /// </example>
+        string ElementDescription { get; }
+
+        IWorkflowElementSettings Setting { get; set; }
     }
 }
